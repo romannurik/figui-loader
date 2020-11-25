@@ -20,7 +20,7 @@ If your UI requires actual HTML (e.g. `<link>` or a root `<div>`), you can eithe
 
 You'll also need to add typings, so update your `tsconfig.json` with the loader's type root:
 
-```json
+```js
 {
   "compilerOptions": {
     ...
