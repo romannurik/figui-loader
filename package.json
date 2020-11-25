@@ -3,10 +3,15 @@
   "version": "0.1.1",
   "description": "A webpack loader for bundling Figma plugin UIs into your main plugin bundle",
   "main": "index.js",
-  "types": "types/loader/index.d.ts",
+  "types": "types/index.d.ts",
   "repository": {
     "url": "https://github.com/romannurik/figui-loader"
   },
+  "files": [
+    "types/**/*",
+    "util.js",
+    "util.d.ts"
+  ],
   "keywords": [
     "figma",
     "plugin",
@@ -15,6 +20,12 @@
   "peerDependencies": {
     "webpack": "^4.0.0"
   },
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "author": "Roman Nurik <roman@nurik.net>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
 }

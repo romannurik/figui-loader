@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES6", "dom"],
+    "module": "commonjs",
+    "outDir": ".",
+    "declaration": true,
+    "strict": true,
+  }
+}
