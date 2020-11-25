@@ -4,6 +4,14 @@ A webpack loader for bundling figma plugin UIs into your main plugin bundle.
 
 The output of the loader is a string for a `<script>` tag containing the UI bundle.
 
+## Installing
+
+Grab it from npm:
+
+```
+npm install --save-dev figui-loader
+```
+
 ## Usage
 
 Assuming your UI entrypoint is `ui.ts`, you can bundle it and use it in your plugin's main code like this:
