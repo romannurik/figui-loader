@@ -1,6 +1,6 @@
 {
   "name": "figui-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A webpack loader for bundling Figma plugin UIs into your main plugin bundle",
   "main": "index.js",
   "types": "types/index.d.ts",
