@@ -1,3 +1,7 @@
+# DEPRECATED - Use [figpack](https://github.com/romannurik/figpack) instead.
+
+---
+
 # figui-loader
 
 A webpack loader for bundling figma plugin UIs into your main plugin bundle.
